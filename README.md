@@ -1,1 +1,0 @@
-# community_science_museum-Tor_Haakon_Bergseng
