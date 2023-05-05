@@ -109,7 +109,7 @@ nav a {
 .front-page-tiles {
   height: auto;
   width: 90vw;
-  margin: -20px auto;
+  margin: auto;
 }
 
 .front-page-tiles h1, h2, h3 {
