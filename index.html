@@ -6,6 +6,9 @@
   <meta name="description" content="Homepage">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
   <script src="https://kit.fontawesome.com/99f531cd0d.js" crossorigin="anonymous"></script>
   <title>Community Science Museum | Home</title>
 </head>
@@ -36,41 +39,48 @@
   <main>
     <section class="front-page-tiles">
       <div class="front-page-tile-1">
-        <img src="images/desktop/samuel-zeller-158996-desktop.jpg" alt="visit picture">
-        <a href="visit.html">Visit us</a>
+        <div class="front-page-tile-picture">
+          <a href="events.html"><img src="images/mobile/samuel-zeller-158996-mobile.jpg" alt="visit picture"></a>
+        </div>
+
         <h1>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</h1>
       </div>
       <div class="front-page-tile-2">
-        <img src="images/desktop/samuel-zeller-113381-desktop.jpg" alt="exhibitions picture">
-        <a href="exhibitions.html">Exhibitions</a>
+        <div class="front-page-tile-picture">
+          <a href="exhibitions.html"><img src="images/mobile/samuel-zeller-113381-mobile.jpg" alt="exhibitions picture"></a>
+        </div>
         <h2>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.</h2>
       </div>
       <div class="front-page-tile-3">
-        <img src="images/desktop/jesse-orrico-60373-desktop.jpg" alt="events picture">
-        <a href="events.html">Events</a>
+        <div class="front-page-tile-picture">
+          <img src="images/mobile/jesse-orrico-60373-mobile.jpg" alt="events picture">
+        </div>
         <h3>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</h3>
       </div>
+    </section>
       <div class="front-page-tile-4">
-        <img src="images/desktop/exhibition-1863344_1920-desktop.jpg" alt="explore picture">
-        <a href="explore.html">Explore</a>
+        <a href="exhibitions.html" class="exhibition-mobile-img"><img src="images/mobile/exhibition-1863344_1920-mobile.jpg" alt="explore picture"></a>
+        <a href="exhibitions.html" class="exhibition-desktop-img"><img src="images/desktop/exhibition-1863344_1920-desktop.jpg" alt="explore picture"></a>
       </div>
-    </section>
+    <div class="lower-index-tiles">
     <section class="front-page-address-tile">
-      <h4>Visit us
-        <p>Our address is</p>
-        <p>1725 SLough Avenue</p>
-        <p>In Scranton</p>
-        <p>Pennsylvania</p>
-        <a href="index.html" class="cta-blue">See Directions</a>
-      </h4>
+      <h4>Visit us</h4>
+      <p>Our address is</p>
+      <p>1725 Slough Avenue</p>
+      <p>In Scranton</p>
+      <p>Pennsylvania</p>
+      <a href="index.html" class="cta-blue">See Directions</a>
     </section>
-    <section class="Newsletter">
+    <section class="newsletter">
       <h5>Bring some science to your mailbox</h5>
       <p>We would love to send you news straight to your e-mail</p>
+      <div class="newsletter-form">
       <input type="text" aria-label="enter name" id="first-name" name="name" placeholder="Name">
       <input type="text" aria-label="enter e-mail" id="e-mail" name="e-mail" placeholder="E-mail">
+    </div>
       <a href="index.html" class="cta-blue">Subscribe</a>
     </section>
+  </div>
   </main>
     <footer>
     <div class="gray-footer">

@@ -6,6 +6,8 @@
   <meta name="description" content="Event information">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
   <script src="https://kit.fontawesome.com/99f531cd0d.js" crossorigin="anonymous"></script>
   <title>Community Science Museum | Events</title>
 </head>
@@ -13,21 +15,25 @@
   <header>
     <div class="upper-nav-bar">
       <input type="text" aria-label="search field" id="search-upper" name="search" placeholder="Search">
-      <a href="visit.html">Today: Open till 18:00</a>
-      <a href="index-html"> <img src="images/desktop/norwegian-flag.png" alt="norwegian language icon"></a>
+      <div class="left-top-nav">
+        <a href="visit.html">Today: Open till 18:00</a>
+        <a href="index-html"> <img src="images/desktop/norwegian-flag.png" alt="norwegian language icon"></a>
+    </div>
     </div>
     <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
     <input type="checkbox" id="hamburger-menu">
+    <div class="logo-picture">
+      <a href="index.html" class="logo"><img src="images/logo_main.jpg"></a>
+    </div>  
     <nav>
       <ul>
         <li><a href="visit.html">Visit us - Opening hours</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="exhibitions.html">Exhibitions</a></li>
-        <li><a href="events.html class=active">Events</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
         <li><input type="text" aria-label="search field" id="search-main" name="search" placeholder="Search"></li>
       </ul>
     </nav>
-    <a href="index.html" class="logo"><img src="images/logo_main.jpg"></a>
   </header>
   <main>
     <h1>Special Events and Exhibitions</h1>
@@ -48,47 +54,49 @@
       </section>
   </main>
   <footer>
-    <div class="first-footer-column">
-    <h6>CONTACT US</h6>
-      <ul>
-        <li>Community Science Museum</li>
-        <li>1725 Slough Avenue</li>
-        <li>Scranton</li>
-        <li>Pennsylvania</li>
-        <li>Tel: (570) 340-3400</li>
-        <li>E-mail: cms@museumsarefun.com</li>
-      </ul>
-    </div>
-    <div class="second-footer-column">
-      <h6>OPENING HOURS</h6>
+    <div class="gray-footer">
+      <div class="first-footer-column">
+      <h6>CONTACT US</h6>
         <ul>
-          <li>Monday: Closed</li>
-          <li>Tuesday: 10:00 - 16:00</li>
-          <li>Wednesday: 10:00 - 16:00</li>
-          <li>Thursday: 10:00 - 16:00</li>
-          <li>Friday: 10:00 - 19:00</li>
-          <li>Saturday: 9:00 - 16:00</li>
-          <li>Sunday: 09:00 - 13:00</li>
+          <li>Community Science Museum</li>
+          <li>1725 Slough Avenue</li>
+          <li>Scranton</li>
+          <li>Pennsylvania</li>
+          <li>Tel: (570) 340-3400</li>
+          <li>E-mail: cms@museumsarefun.com</li>
         </ul>
-    </div>
-    <div class="third-footer-column">
-      <h6>SHORTCUTS</h6>
-        <ul>
-          <li><a href="visit.html">Visit us - Opening Hours</a></li>
-          <li><a href="exhibitions.html">Exhibitions</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="explore.html">Explore</a></li>
-        </ul>
-    </div>
-    <section class="footer-bar">
-      <div class="socials">
-        <i class="fa-brands fa-facebook-f" aria-label="facebook icon"></i>
-        <i class="fa-brands fa-twitter" aria-label="twitter icon"></i>
-        <i class="fa-brands fa-instagram" aria-label="instagram icon"></i>
-        <i class="fa-brands fa-youtube" aria-label="youtube icon"></i>
       </div>
-      <p>&copy; 2023 Tor-Håkon Bergseng</p>
-    </section>
-  </footer>
+      <div class="second-footer-column">
+        <h6>OPENING HOURS</h6>
+          <ul>
+            <li>Monday: Closed</li>
+            <li>Tuesday: 10:00 - 16:00</li>
+            <li>Wednesday: 10:00 - 16:00</li>
+            <li>Thursday: 10:00 - 16:00</li>
+            <li>Friday: 10:00 - 19:00</li>
+            <li>Saturday: 9:00 - 16:00</li>
+            <li>Sunday: 09:00 - 13:00</li>
+          </ul>
+      </div>
+      <div class="third-footer-column">
+        <h6>SHORTCUTS</h6>
+          <ul>
+            <li><a href="visit.html">Visit us - Opening Hours</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="explore.html">Explore</a></li>
+          </ul>
+      </div>
+    </div>
+      <section class="footer-bar">
+        <div class="socials">
+          <i class="fa-brands fa-facebook-f" aria-label="facebook icon"></i>
+          <i class="fa-brands fa-twitter" aria-label="twitter icon"></i>
+          <i class="fa-brands fa-instagram" aria-label="instagram icon"></i>
+          <i class="fa-brands fa-youtube" aria-label="youtube icon"></i>
+        </div>
+        <p>&copy; 2023 Tor-Håkon Bergseng</p>
+      </section>
+    </footer>
 </body>
 </html>
