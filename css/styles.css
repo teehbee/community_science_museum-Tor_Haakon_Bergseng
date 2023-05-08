@@ -201,10 +201,197 @@ nav a {
   width: 100px;
 }
 
+/* Visit page */
+
+.visit-map-image {
+  text-align: center;
+}
+
+.map-image, .visit-photo {
+  height: auto;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.visit-info-1 h1, h2 {
+  text-align: left;
+}
+
+.visit-info-1 h1 {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.visit-info-1 h2,
+.visit-info-1 h3,
+.visit-info-1 h4,
+.visit-page h6 {
+  font-size: 0.8em;
+  padding: 0px;
+  margin: 0px;
+}
+
+.visit-info-1 p,
+.visit-info-2 p {
+  font-size: 0.8em;
+  padding: 0px;
+  line-height: 170%;
+}
+
+.visit-page {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.visit-photo {
+  padding: 20px 0px;
+}
+
+/* Explore page */
+
+.explore-page {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.explore-photo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.explore-photo img {
+  height: auto; 
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.explore-kids,
+.explore-teachers,
+.explore-researchers {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.explore-kids-text,
+.explore-researchers-text,
+.explore-teachers-text
+ {
+  color: #FFF;
+  font-size: 0.8em;
+  line-height: 170%;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.explore-kids-text {
+  background: #93613C;
+}
+
+.explore-page p {
+  padding: 1em;
+  
+}
+
+.explore-teachers-text {
+  background: #678E73;
+}
+
+.explore-researchers-text {
+  background: #1B2331;
+}
+
+.explore-page h1,
+.explore-page h2,
+.explore-page h3 {
+  font-size: 1em;
+  text-align: left;
+  margin: 5px 0px;
+  padding: 0px;
+  font-weight: semi-bold;
+  font-family: Barlow, Verdana, sans-serif;
+}
+
+/* Exhibitions page */
+
+.exhibitions {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.exhibitions h1 {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.exhibitions h2,
+.exhibitions h3,
+.exhibitions h4,
+.exhibitions h5,
+.exhibitions h6 {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1em;
+  font-family: Inter, Verdana, sans-serif;
+  max-width: 800px;
+}
+
+
+.exhibitions-photo img {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.exhibition-text {
+  width: 100%;
+  height: auto;
+}
+
+.exhibition-tile {
+  text-align: center;
+}
+
+.exhibition-text-cosmology {
+  background: #1B2331;
+}
+
+.exhibition-text-evolution {
+  background: #324C75;
+}
+
+.exhibition-text-biology {
+  background: #42311C;
+}
+
+.exhibition-text-robotics {
+  background: #9C7B75;
+}
+
+.exhibition-text-ecology {
+  background: #010010;
+}
+
+.exhibition-text-cosmology,
+.exhibition-text-evolution,
+.exhibition-text-biology,
+.exhibition-text-robotics,
+.exhibition-text-ecology {
+  color: #FFF;
+  padding: 10px;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
 /* Footer */
 
 .gray-footer {
   width: 90%;
+  max-width: 1100px;
   background-color: #EDEDED;
   margin: auto;
   padding-bottom: 10px;
@@ -295,6 +482,13 @@ footer ul {
     grid-template-columns: 1fr 1fr 1fr;
     text-align: left;
   }
+
+  .visit-text-columns {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+
 }
 
 @media (min-width: 1100px) {
@@ -318,7 +512,7 @@ footer ul {
 
   .front-page-tile-4 img {
     height: auto; 
-    width: 100%;
+    width: 97%;
   }
 
   .front-page-tile-4 .exhibition-mobile-img {
@@ -330,7 +524,7 @@ footer ul {
   }
 
   .lower-index-tiles {
-    max-width: 1100px;
+    max-width: 1125px;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -345,6 +539,10 @@ footer ul {
     max-width: 100%;
     margin: 0px;
     padding-right: 50px;
+  }
+
+  footer ul {
+    font-size: 1.2em;
   }
 
 }
