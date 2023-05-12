@@ -76,7 +76,8 @@ nav {
   position: absolute;
   background: #FFF;
   width: 100%;
-  min-width: 400
+  min-width: 400;
+  z-index: 1000;
 }
 
 nav li {
@@ -108,8 +109,9 @@ nav a {
 
 .front-page-tiles {
   height: auto;
-  width: 90vw;
+  width: 90%;
   margin: auto;
+
 }
 
 .front-page-tiles h1,
@@ -120,6 +122,8 @@ nav a {
   padding: 20px 10px;
   color: #171A20;
   max-width: 315px;
+  height: auto;
+  width: 100%;
   line-height: 2em;
   font-family: Barlow, Verdana, sans-serif;
 }
@@ -140,12 +144,6 @@ nav a {
   height: auto;
   text-align: center;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
-}
-
-.front-page-tile-1, .front-page-tile-2 {
-  position: relative;
 }
 
 .front-page-tile-4 {
