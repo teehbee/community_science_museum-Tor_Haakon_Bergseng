@@ -130,6 +130,12 @@ nav a {
   background: #FD7F66;
 }
 
+.index-image {
+  height: auto;
+  width: 100%;
+  max-width: 335px;
+}
+
 .front-page-tiles h2 {
   background: #EDEDED;
 }
@@ -141,9 +147,9 @@ nav a {
 .front-page-tile-4 {
   height: auto;
   text-align: center;
-  width: 100%;
+  width: 90vw;
   padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
 }
 
 .front-page-tile-4 .exhibition-desktop-img {
