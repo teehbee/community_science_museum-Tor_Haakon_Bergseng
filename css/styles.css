@@ -111,7 +111,7 @@ nav a {
   height: auto;
   width: 90%;
   margin: auto;
-
+  text-align: center;
 }
 
 .front-page-tiles h1,
@@ -122,8 +122,6 @@ nav a {
   padding: 20px 10px;
   color: #171A20;
   max-width: 315px;
-  height: auto;
-  width: 100%;
   line-height: 2em;
   font-family: Barlow, Verdana, sans-serif;
 }
@@ -138,12 +136,6 @@ nav a {
 
 .front-page-tiles h3 {
   background: #C6AB8F;
-}
-
-.front-page-tile-picture {
-  height: auto;
-  text-align: center;
-  width: 100%;
 }
 
 .front-page-tile-4 {
