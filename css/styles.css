@@ -295,7 +295,7 @@ nav a {
 }
 
 .explore-teachers-text {
-  background: #678E73;
+  background: #407651;
 }
 
 .explore-researchers-text {
@@ -544,6 +544,11 @@ footer ul {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
   }
+  
+  .footer-bar p {
+    font-size: 0.8em;
+  }
+
 }
 
 @media (min-width: 1000px) {
