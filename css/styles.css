@@ -291,7 +291,6 @@ nav a {
 
 .explore-page p {
   padding: 1em;
-  
 }
 
 .explore-teachers-text {
@@ -305,9 +304,9 @@ nav a {
 .explore-page h1,
 .explore-page h2,
 .explore-page h3 {
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: left;
-  margin: 5px 0px;
+  margin: 25px 0px;
   padding: 0px;
   font-weight: semi-bold;
   font-family: Barlow, Verdana, sans-serif;
@@ -480,7 +479,7 @@ footer ul {
 
 .footer-bar p {
   padding-right: 5%;
-  font-size: 0.6em;
+  font-size: 0.7em;
 }
 
 .socials {
